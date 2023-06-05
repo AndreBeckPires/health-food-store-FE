@@ -1,0 +1,60 @@
+#top-banner
+{
+    display: flex;
+    width: device-width;
+    height: 300px;
+    background-size: auto;
+    background-image: url('salada.jpeg');
+}
+.seletor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    margin: 10px 500px 10px 500px;
+    border-radius: 10px;
+}
+h1,h2{
+    text-align: center;
+}
+
+picture{
+     display: flex;
+     justify-content: center;
+
+}
+
+img{
+    border-radius: 10px;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+#saladapronta{
+    margin-bottom: 30px;
+}
+
+.check{
+    background-color: lightgreen;
+}
+
+.check:hover{
+    background-color: aquamarine;
+}
+.imgSalada{
+    height: 150px;
+    width: 250px;
+}
+
+.button{
+    display: block;
+    margin-left: 30%;
+    height: 40px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: aquamarine;
+}
