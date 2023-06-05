@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: caesarFont;
+    src: url(fonts/cCaesarSalad.ttf);
+  }
+
+  @font-face {
+    font-family: fingerFont;
+    src: url(fonts/saladfingers.ttf);
+  }
 #top-banner
 {
     display: flex;
@@ -15,6 +25,7 @@
     border-radius: 10px;
 }
 h1,h2{
+    font-family: caesarFont;
     text-align: center;
 }
 
@@ -30,6 +41,9 @@ img{
 
 body{
     background-color: greenyellow;
+    font-family: fingerFont;
+    font-weight: bold;
+    font-size: large;
 }
 
 #saladapronta{
@@ -54,7 +68,36 @@ body{
     height: 40px;
     background-color: lightgreen;
     border-radius: 10px;
+    font-family: fingerFont;
+    font-weight: bolder;
+    font-size: larger;
 }
 .button:hover{
     background-color: aquamarine;
+}
+
+footer{
+    background-color: lightgreen;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+}
+.icone {
+    display: flex;
+    width: 40px; /* Defina a largura desejada para o ícone */
+    height: 40px; /* Defina a altura desejada para o ícone */
+    margin: 10px;
+    
+  }
+
+#map{
+    background-color: red;
+    margin-left: 10px;
+    width: 500px;
+    background-image: urL(imgs/map.jpeg);
+    border-radius: 10px;
+}
+
+#onde{
+    margin-left: 700px;
 }
